@@ -75,7 +75,6 @@ def print_html_table(
         th, td {{
             border: 1px solid #444;
             padding: 8px;
-            text-align: left;
             vertical-align: top;
         }}
         th {{
@@ -117,8 +116,8 @@ def print_html_table(
             <th><strong>{col2_title}</strong></th>
         </tr>
         <tr>
-            <td>{s1_fmt}</td>
-            <td>{s2_fmt}</td>
+            <td style="text-align:left; vertical-align:top;">{s1_fmt}</td>
+            <td style="text-align:left; vertical-align:top;">{s2_fmt}</td>
         </tr>
     </table>
     """
