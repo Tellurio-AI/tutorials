@@ -112,8 +112,8 @@ def print_html_table(
     </style>
     <table>
         <tr>
-            <th><strong>{col1_title}</strong></th>
-            <th><strong>{col2_title}</strong></th>
+            <th style="text-align:left;"><strong>{col1_title}</strong></th>
+            <th style="text-align:left;"><strong>{col2_title}</strong></th>
         </tr>
         <tr>
             <td style="text-align:left; vertical-align:top;">{s1_fmt}</td>
